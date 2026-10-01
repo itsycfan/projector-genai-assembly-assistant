@@ -1,0 +1,22 @@
+# Secrets and local configuration
+config/config.ini
+.env
+
+# Runtime outputs
+outputs/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+proenv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/

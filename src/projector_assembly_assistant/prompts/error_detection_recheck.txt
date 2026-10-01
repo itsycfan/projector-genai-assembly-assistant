@@ -1,0 +1,21 @@
+The operator reported that the previous analysis needs improvement.
+
+Operator feedback:
+- Problem areas: $problem_areas
+- Additional details: $details
+
+Previous analysis:
+$previous_analysis
+
+Please re-examine the difference between the reference image of the correct
+assembly state (first image) and the real-time assembly state (second image)
+according to the instruction "$instruction". Pay special attention to the aspects
+raised by the operator.
+
+Output a Detection Log in exactly this format:
+
+Status: CORRECT or ERROR
+Key components check:
+- <each component or tool named in the instruction>: <correct / incorrect / missing>
+Error description: <specific, concise description, or "None">
+Correction instructions: <clear and concise steps to fix the error, or "None">

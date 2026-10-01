@@ -1,0 +1,25 @@
+Current operation: $operation
+Assembly instruction: "$instruction"
+Required components: $components
+Required tools: $tools
+
+You will receive two images:
+1. The first image is the reference image showing the correct assembly state.
+2. The second image is the real-time capture of the current assembly state.
+
+Based on the two images and the assembly instruction, analyse whether the operator
+completed this step correctly.
+
+IMPORTANT GUIDELINES:
+1. Focus ONLY on the components, tools and hardware mentioned in the instruction.
+2. IGNORE all other parts, components or objects in the scene. Many visible parts
+   belong to future steps and are NOT relevant to this verification.
+3. IGNORE differences in lighting conditions, camera angle and background objects.
+
+Output a Detection Log in exactly this format:
+
+Status: CORRECT or ERROR
+Key components check:
+- <each component or tool named in the instruction>: <correct / incorrect / missing>
+Error description: <specific, concise description, or "None">
+Correction instructions: <clear and concise steps to fix the error, or "None">

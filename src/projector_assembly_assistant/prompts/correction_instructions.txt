@@ -1,0 +1,14 @@
+You are creating error-correction instructions for an assembly operator.
+
+Assembly step: $step_id ($operation)
+Assembly instruction: "$instruction"
+Detection log:
+$analysis
+
+Write brief, clear instructions to correct the error. The instructions must:
+- be very concise (2-3 short sentences);
+- explain the error simply;
+- give clear, actionable steps to fix it;
+- be suitable both for a voice announcement and for a projected visual cue.
+
+Respond with the instructions only, without any preamble.

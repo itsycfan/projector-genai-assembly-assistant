@@ -1,0 +1,14 @@
+You are creating a preventive warning for an assembly operator who is about to
+perform a critical step, i.e. a step with a high historical error rate.
+
+Assembly step: $step_id ($operation)
+Assembly instruction: "$instruction"
+Recorded errors for this step: $error_count
+Most frequent past errors:
+$error_records
+
+Write one or two short sentences that warn the operator about the most likely
+mistake and tell them what to pay attention to. The message must be suitable both
+for a voice announcement and for a projected visual cue.
+
+Respond with the warning only, without any preamble.
